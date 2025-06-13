@@ -1,0 +1,48 @@
+/* Basic Admin Styles */
+body {
+    background-color: #f8f9fc;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    width: 250px;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 250px;
+}
+
+#content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#page-top.sidebar-toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+.topbar {
+    height: 4.375rem;
+}
+
+.topbar .nav-item .nav-link {
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+
+.footer {
+    padding: 2rem 0;
+}
